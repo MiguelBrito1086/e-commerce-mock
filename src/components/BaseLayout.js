@@ -13,13 +13,13 @@ export default class BaseLayout extends Component {
     return (
       <div>
         <nav className='navBar'>
-          <NavLink activeStyle='yellow' to='/'>Home</NavLink>
-          <NavLink activeStyle='yellow' to='/Cups'>Cups</NavLink>
-          <NavLink activeStyle='yellow' to='/Flasks'>Flasks</NavLink>
-          <NavLink activeStyle='yellow' to='/Mugs'>Mugs</NavLink>
-          <NavLink activeStyle='yellow' to='/Platters'>Platters</NavLink>
-          <NavLink activeStyle='yellow' to='/About'>About</NavLink>
-          <NavLink activeStyle='yellow' to='/Contact'>Contact</NavLink>
+          <NavLink activeStyle={{color: 'lightgreen'}} exact to='/'>Home</NavLink>
+          <NavLink activeStyle={{color: 'lightgreen'}} to='/Cups'>Cups</NavLink>
+          <NavLink activeStyle={{color: 'lightgreen'}} to='/Flasks'>Flasks</NavLink>
+          <NavLink activeStyle={{color: 'lightgreen'}} to='/Mugs'>Mugs</NavLink>
+          <NavLink activeStyle={{color: 'lightgreen'}} to='/Platters'>Platters</NavLink>
+          <NavLink activeStyle={{color: 'lightgreen'}} to='/About'>About</NavLink>
+          <NavLink activeStyle={{color: 'lightgreen'}} to='/Contact'>Contact</NavLink>
         </nav>
         {this.props.children}
       </div>
