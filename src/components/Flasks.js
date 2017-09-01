@@ -8,7 +8,12 @@ export default class Flasks extends Component {
   render() {
     return (
       <div>
-        <h1>This is the flasks page.</h1>
+        <h1>flask</h1>
+        <h1 className='pronounce'>[flahsk]</h1>
+        <h1 className='noun'>noun</h1>
+        <h1 className='definition'>
+          2. a flat metal or glass bottle for carrying in the pocket.
+        </h1>
         <div>
           <ul className='flasks'>
             <li>
