@@ -1,12 +1,5 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import About from './About';
-import Contact from './Contact';
-import Cups from './Cups';
-import Flasks from './Flasks';
-import Home from './Home';
-import Mugs from './Mugs';
-import Platters from './Platters';
 
 export default class BaseLayout extends Component {
   render () {
