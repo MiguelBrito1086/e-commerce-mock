@@ -19,22 +19,22 @@ export default class Platters extends Component {
             <li>
               <img src={birdPlatter} alt=""/>
               <p className='descrip'>Bird Platter</p>
-              <p className='price'>$ Inquire for Pricing</p>
+              <p className='price'>$ 400.00</p>
             </li>
             <li>
               <img src={martyPlatter} alt=""/>
               <p className='descrip'>Arrow Platter</p>
-              <p className='price'>$ Inquire for Pricing</p>
+              <p className='price'>$ 250.00</p>
             </li>
             <li>
               <img src={MacSmithPlatter} alt=""/>
               <p className='descrip'>Swirl Platter</p>
-              <p className='price'>$ Inquire for Pricing</p>
+              <p className='price'>$ 300.00</p>
             </li>
             <li>
               <img src={greenheckPlatter} alt=""/>
               <p className='descrip'>Scale Platter</p>
-              <p className='price'>$ Inquire for Pricing</p>
+              <p className='price'>$ 400.00</p>
             </li>
           </ul>
         </div>

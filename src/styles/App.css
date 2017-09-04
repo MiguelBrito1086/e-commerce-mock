@@ -20,12 +20,18 @@ nav {
 nav a {
   text-decoration: none;
   color: #3bb8df;
+  transition: all 200ms ease-in-out;
+}
+
+a {
+  text-decoration: none;
+  color: #3bb8df;
+  transition: all 200ms ease-in-out;
 }
 
 a:hover {
   color: #af5ff6;
-  position: relative;
-  top: -.25em;
+  transform: translateY(-.25em);
 }
 
 h1 {
@@ -34,6 +40,17 @@ h1 {
   font-size: 50px;
   margin-left: 2em;
   margin-bottom: 0;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.hands {
+  display: flex;
+  align-items: center;
+  margin: 2em;
 }
 
 img {
@@ -97,6 +114,13 @@ img {
   text-align: center;
 }
 
+.contact {
+  font-size: 24px;
+  margin-top: 2em;
+  width: 90%;
+  text-align: right;
+}
+
 .descrip {
   color: #d1bebc;
   font-size: 20px;
@@ -121,4 +145,5 @@ img {
 .definition {
   font-size: 20px;
   margin-left: 8em;
+  margin-right: 1em;
 }

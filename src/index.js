@@ -5,7 +5,6 @@ import './styles/App.css';
 import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import BaseLayout from './components/BaseLayout';
-import About from './components/About';
 import Contact from './components/Contact';
 import Cups from './components/Cups';
 import Flasks from './components/Flasks';
@@ -18,7 +17,6 @@ ReactDOM.render(
     <BaseLayout>
       <Switch>
         <Route exact path='/' component={Home} />
-        <Route exact path='/About' component={About} />
         <Route exact path='/Contact' component={Contact} />
         <Route exact path='/Cups' component={Cups} />
         <Route exact path='/Flasks' component={Flasks} />

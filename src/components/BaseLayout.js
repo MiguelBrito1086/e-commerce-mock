@@ -11,7 +11,6 @@ export default class BaseLayout extends Component {
           <NavLink activeStyle={{color: 'lightgreen'}} to='/Flasks'>Flasks</NavLink>
           <NavLink activeStyle={{color: 'lightgreen'}} to='/Mugs'>Mugs</NavLink>
           <NavLink activeStyle={{color: 'lightgreen'}} to='/Platters'>Platters</NavLink>
-          <NavLink activeStyle={{color: 'lightgreen'}} to='/About'>About</NavLink>
           <NavLink activeStyle={{color: 'lightgreen'}} to='/Contact'>Contact</NavLink>
         </nav>
         {this.props.children}
