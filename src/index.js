@@ -16,7 +16,7 @@ ReactDOM.render(
   <BrowserRouter>
     <BaseLayout>
       <Switch>
-        <Route exact path='/' component={Home} />
+        <Route exact path='/e-commerce-mock' component={Home} />
         <Route exact path='/Contact' component={Contact} />
         <Route exact path='/Cups' component={Cups} />
         <Route exact path='/Flasks' component={Flasks} />
