@@ -6,7 +6,7 @@ export default class BaseLayout extends Component {
     return (
       <div>
         <nav className='navBar'>
-          <NavLink activeStyle={{color: 'lightgreen'}} exact to='/'>Home</NavLink>
+          <NavLink activeStyle={{color: 'lightgreen'}} exact to='/e-commerce-mock'>Home</NavLink>
           <NavLink activeStyle={{color: 'lightgreen'}} to='/Cups'>Cups</NavLink>
           <NavLink activeStyle={{color: 'lightgreen'}} to='/Flasks'>Flasks</NavLink>
           <NavLink activeStyle={{color: 'lightgreen'}} to='/Mugs'>Mugs</NavLink>
